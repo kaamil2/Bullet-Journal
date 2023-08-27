@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<Scene xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <AnchorPane prefHeight="79.0" prefWidth="252.0">
+      <children>
+         <VBox layoutX="6.0" layoutY="-1.0" prefHeight="78.0" prefWidth="246.0">
+            <children>
+               <HBox alignment="CENTER" prefHeight="42.0" prefWidth="246.0">
+                  <children>
+                     <Label text="Name of Week: " />
+                     <TextField fx:id="newName" text="Insert new name" />
+                  </children>
+               </HBox>
+               <HBox alignment="CENTER_RIGHT" prefHeight="33.0" prefWidth="246.0">
+                  <children>
+                     <Button fx:id="newNameCancel" mnemonicParsing="false" text="Cancel" />
+                     <Button fx:id="newNameSave" alignment="CENTER" mnemonicParsing="false" text="Save" HBox.hgrow="ALWAYS" />
+                  </children>
+               </HBox>
+            </children>
+         </VBox>
+      </children></AnchorPane>
+</Scene>

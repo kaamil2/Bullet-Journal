@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Scene fill="BLACK" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <AnchorPane fx:id="apane" prefHeight="377.0" prefWidth="555.0" style="-fx-background-color: black;">
+      <children>
+         <Pane layoutX="27.0" prefHeight="381.0" prefWidth="568.0" style="-fx-background-color: black;">
+            <children>
+               <Label fx:id="progress" layoutX="227.0" layoutY="296.0" prefHeight="17.0" prefWidth="133.0" text="Please Be Patient" textFill="#514949" />
+               <Label layoutX="82.0" layoutY="73.0" prefHeight="172.0" prefWidth="379.0" style="-fx-font-family: serif;" text="LOADING YOUR WEEK VIEW" textAlignment="CENTER" textFill="#0089ff">
+                  <font>
+                     <Font size="25.0" />
+                  </font>
+               </Label>
+            </children>
+         </Pane>
+      </children></AnchorPane>
+</Scene>

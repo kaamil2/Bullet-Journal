@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<Scene xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <AnchorPane prefHeight="90.0" prefWidth="201.0">
+      <children>
+         <AnchorPane prefHeight="71.0" prefWidth="201.0">
+            <children>
+               <VBox alignment="CENTER" layoutX="1.0" prefHeight="84.0" prefWidth="200.0">
+                  <children>
+                     <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                        <children>
+                           <Button fx:id="saveMaxEvents" mnemonicParsing="false" prefHeight="26.0" prefWidth="119.0" text="Set max events" HBox.hgrow="ALWAYS" />
+                           <TextField fx:id="maxEvents" prefHeight="26.0" prefWidth="101.0" promptText="Enter Number" HBox.hgrow="ALWAYS" />
+                        </children>
+                     </HBox>
+                     <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+                        <children>
+                           <Button fx:id="saveMaxTasks" mnemonicParsing="false" prefHeight="26.0" prefWidth="175.0" text="Set max tasks" HBox.hgrow="ALWAYS" />
+                           <TextField fx:id="maxTasks" promptText="Enter Number" />
+                        </children>
+                     </HBox>
+                     <HBox alignment="CENTER_RIGHT" prefHeight="30.0" prefWidth="200.0" VBox.vgrow="ALWAYS" />
+                  </children>
+               </VBox>
+            </children>
+         </AnchorPane>
+         <Button fx:id="closeSetMax" layoutX="136.0" layoutY="77.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="65.0" text="Close" />
+      </children></AnchorPane>
+</Scene>
